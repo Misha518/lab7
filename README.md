@@ -45,7 +45,7 @@ h в кватрате , получим
 Распространив его на нашу систему уравнений получим формулы, которые непо-
 средственно были заложены в программу:
 
-<p align="center"><img src="/readd/7.png?invert_in_darkmode&sanitize=true" align=middle width=586.2915617pt height=90.90601885pt/></p>
+<p align="center"><img src="/readd/7.png?invert_in_darkmode&sanitize=true" align=middle width=586.2915617pt height=180.90601885pt/></p>
 
 Точность решения, как и при взятии определенного интеграла контролирова-
 лась по правилу Рунге. При решении на каждом шаге вычислялось максималь-
