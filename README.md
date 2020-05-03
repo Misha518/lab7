@@ -13,9 +13,15 @@
 ## Теоретическая часть
 
 Метод Хойна
+
 Пусть поставлена задача Коши
 
 <p align="center"><img src="/readd/2.png?invert_in_darkmode&sanitize=true" align=middle width=386.2915617pt height=70.90601885pt/></p>
+
+Для построения приближенного решения в точке x (n+1) сетки ω (n) , разложим в ряд
+Тейлора решение в предыдущей точке сетки x (n) по степеням шага h:
+
+<p align="center"><img src="/readd/3.png?invert_in_darkmode&sanitize=true" align=middle width=386.2915617pt height=70.90601885pt/></p>
 
 ## Практическая часть
 
