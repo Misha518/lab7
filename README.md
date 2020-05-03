@@ -15,6 +15,7 @@
 Метод Хойна
 Пусть поставлена задача Коши
 
+<p align="center"><img src="/readd/2.png?invert_in_darkmode&sanitize=true" align=middle width=386.2915617pt height=44.90601885pt/></p>
 
 ## Практическая часть
 
