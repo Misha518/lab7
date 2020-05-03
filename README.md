@@ -45,12 +45,12 @@ h в кватрате , получим
 Распространив его на нашу систему уравнений получим формулы, которые непо-
 средственно были заложены в программу:
 
-<p align="center"><img src="/readd/7.png?invert_in_darkmode&sanitize=true" align=middle width=586.2915617pt height=180.90601885pt/></p>
+<p align="center"><img src="/readd/7.png?invert_in_darkmode&sanitize=true" align=middle width=586.2915617pt height=250.90601885pt/></p>
 
 Точность решения, как и при взятии определенного интеграла контролирова-
 лась по правилу Рунге. При решении на каждом шаге вычислялось максималь-
 ное отклонение компонент векторов решений Y(n) и Y(n-1)
-<p align="center"><img src="/readd/8.png?invert_in_darkmode&sanitize=true" align=middle width=386.2915617pt height=44.90601885pt/></p>
+<p align="center"><img src="/readd/8.png?invert_in_darkmode&sanitize=true" align=middle width=300.2915617pt height=40.90601885pt/></p>
 и если оно превосходило наперед заданную постоянную ε, программа вдвое увеличивала число точек разбиения сетки ω (n) и переходила к
 следующей итерации цикла.
 
