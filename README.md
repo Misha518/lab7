@@ -60,4 +60,10 @@ double dF(double x, double y)
 Программа выводит значение x и y которые являются решением задачи Коши
 
 ### Результаты
-В результате работы программы <p align="center"><img src="/readd/1.png?invert_in_darkmode&sanitize=true" align=middle width=386.2915617pt height=44.90601885pt/></p>
+В результате работы программы была решена задача коши метдом Хойна <p align="center"><img src="/readd/1.png?invert_in_darkmode&sanitize=true" align=middle width=386.2915617pt height=44.90601885pt/></p>
+
+Ниже приведены рисунки
+
+<p align="center"><img src="/readd/gr1.jpg?invert_in_darkmode&sanitize=true" align=middle width=886.2915617pt height=500.90601885pt/></p>
+
+<p align="center"><img src="/readd/gr2.jpg?invert_in_darkmode&sanitize=true" align=middle width=886.2915617pt height=500.90601885pt/></p>
