@@ -51,7 +51,13 @@ h в кватрате , получим
 
 
 ## Практическая часть
+В программе используются две функции
 
+double F(double x, double y)
+
+double dF(double x, double y)
+
+Программа выводит значение x и y которые являются решением задачи Коши
 
 ### Результаты
-
+В результате работы программы <p align="center"><img src="/readd/1.png?invert_in_darkmode&sanitize=true" align=middle width=386.2915617pt height=44.90601885pt/></p>
