@@ -6,7 +6,7 @@ using namespace std;
 double F(double x, double y){
         return x*exp(-x)-2*y;
 }
-double dF(double x, double y){
+double dF(double x){
         return exp(-x)+x*exp(-x);
 }
 
@@ -32,8 +32,8 @@ int main() {
         }
         for(int i=1; i<=n; i++){
                 X1[i]=a+i*h;
-                Y2[i]=Y3[i-1]+h*dF(X[i-1],Y3[i-1]);
-                Y3[i]=Y3[i-1]+h*(dF(X[i-1],Y3[i-1])+dF(X[i],Y2[i]))/2.0;
+                Y2[i]=Y3[i-1]+h*dF(X[i-1]);
+                Y3[i]=Y3[i-1]+h*(dF(X[i-1])+dF(X[i]))/2.0;
                 
         }
         X[0]=a; Y[0]=0;
