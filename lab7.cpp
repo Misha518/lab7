@@ -17,7 +17,6 @@ int main() {
         double Y1[(int)n];
         double Y[(int)n];
         double X1[(int)n];
-        double Y2[(int)n];
         double Y3[(int)n];
         ofstream fout;
         ofstream kout;
@@ -31,8 +30,7 @@ int main() {
                 
         }
         for(int i=1; i<=n; i++){
-                X1[i]=a+i*h;
-                Y2[i]=Y3[i-1]+h*dF(X1[i-1]);
+                X1[i]=a;
                 Y3[i]=Y3[i-1]+h*(dF(X1[i-1])+dF(X1[i]))/2.0;
                 
         }
