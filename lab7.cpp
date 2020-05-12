@@ -32,8 +32,8 @@ int main() {
         }
         for(int i=1; i<=n; i++){
                 X1[i]=a+i*h;
-                Y2[i]=Y3[i-1]+h*dF(X[i-1]);
-                Y3[i]=Y3[i-1]+h*(dF(X[i-1])+dF(X[i]))/2.0;
+                Y2[i]=Y3[i-1]+h*dF(X1[i-1]);
+                Y3[i]=Y3[i-1]+h*(dF(X1[i-1])+dF(X1[i]))/2.0;
                 
         }
         X[0]=a; Y[0]=0; Y3[0]=0;
