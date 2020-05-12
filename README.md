@@ -55,7 +55,7 @@ h в кватрате , получим
 
 double F(double x, double y)
 
-double dF(double x, double y)
+double dF(double x)
 
 Программа выводит значение x и y которые являются решением задачи Коши
 
