@@ -30,7 +30,7 @@ int main() {
                 
         }
         for(int i=1; i<=n; i++){
-                X1[i]=a;
+                X1[i]=a+i*h;
                 Y3[i]=Y3[i-1]+h*(dF(X1[i-1])+dF(X1[i]))/2.0;
                 
         }
