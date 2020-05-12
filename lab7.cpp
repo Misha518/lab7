@@ -19,9 +19,11 @@ int main() {
         double X1[(int)n];
         double Y3[(int)n];
         ofstream fout;
+        ofstream dout;
         ofstream kout;
         fout.open("y.txt");
         kout.open("y1.txt");
+        dout.open("faza.txt");
         X[0]=a; Y[0]=0; 
         for(int i=1; i<=n; i++){
                 X[i]=a+i*h;
@@ -38,9 +40,11 @@ int main() {
         for(int i=0; i<=n; i++){
                 fout<<X[i]<<" "<<Y[i]<<endl;
                 kout<<X[i]<<" "<<Y3[i]<<endl;
+                dout<<Y3[i]<<" "<<Y[i]<<endl;
         }
         fout.close();
         kout.close();
+        dout.close();
         for(int i=0; i<=n; i++){
                 cout << "X["<<i<<"]="<<X[i] <<" ";
         }
