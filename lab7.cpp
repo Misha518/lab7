@@ -36,7 +36,7 @@ int main() {
                 Y3[i]=Y3[i-1]+h*(dF(X[i-1])+dF(X[i]))/2.0;
                 
         }
-        X[0]=a; Y[0]=0;
+        X[0]=a; Y[0]=0; Y3[0]=0;
         for(int i=0; i<=n; i++){
                 fout<<X[i]<<" "<<Y[i]<<endl;
                 kout<<X[i]<<" "<<Y3[i]<<endl;
