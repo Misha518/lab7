@@ -64,6 +64,6 @@ double dF(double x)
 
 Ниже приведены рисунки
 
-<p align="center"><img src="/readd/gr2.jpg?invert_in_darkmode&sanitize=true" align=middle width=886.2915617pt height=500.90601885pt/></p>
+<p align="center"><img src="/readd/gr4.png?invert_in_darkmode&sanitize=true" align=middle width=886.2915617pt height=500.90601885pt/></p>
 
-<p align="center"><img src="/readd/gr3.jpg?invert_in_darkmode&sanitize=true" align=middle width=886.2915617pt height=500.90601885pt/></p>
+<p align="center"><img src="/readd/gr5.png?invert_in_darkmode&sanitize=true" align=middle width=886.2915617pt height=500.90601885pt/></p>
